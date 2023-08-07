@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+background-color: aqua;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.logo{
+color: coral;
+background-color: blue;
+margin: 5px;
+padding: 3px;
+}
+.navbar .navbar-list ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar .navbar-list ul>li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+a{
+    color: blue; text-decoration: none;
+
+}
+a:hover{
+color:yellow;
+
+}
+i{
+    color: white;
+}
+
+.btn{
+    color: chartreuse;
+    background-color: blue;
+    margin: 5px;
+}
+.image{
+    background-image: url(https://media.istockphoto.com/id/1284041267/photo/planet-earth-viewed-from-space-with-city-lights-in-europe-world-with-sunrise-conceptual-image.jpg?b=1&s=612x612&w=0&k=20&c=YAuiFIwxbhforq4DrBEab-wu9N6bmA2mMtlimu4FsLA=);
+    height: 80vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 20px;
+}
+.image h2{
+    color: chartreuse;
+    font-size: 50px;
+    padding: 30px;   
+}
+.image p{
+    color: darkmagenta;
+    padding-bottom: 50px;
+}
+.text{
+    background-color: chartreuse;
+    height: 10vh;
+    text-align: center;
+    padding-top:10px ;
+}
+button{
+    background-color: red;
+    color: white;
+    border: red;
+    padding: 1%;
+}
+
+
+
+
+
